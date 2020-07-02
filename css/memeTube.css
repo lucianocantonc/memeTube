@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    background-color: #0a97b0;
+    color: #fce8d5;
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #1b6ca8;
+    font-family: 'Noto Sans JP', sans-serif;
+}    
+
+header div{
+    padding: 17px 30px;
+    font-size: 40px;
+    color: #ffd3e1;
+    font-weight: normal;
+}
+
+.navigator{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1b6ca8;
+
+}
+
+.navigator > div{
+    margin: 5px;
+    font-size: 17px;
+    padding: 15px;
+}
