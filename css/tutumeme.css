@@ -2,6 +2,7 @@ body{
     margin:0;
     background-color: #0a97b0;
     color: #fce8d5;
+    font-family: 'Encode Sans', sans-serif;
     font-weight: bold;
     animation-name: backcolor;
     animation-duration: 3s;
@@ -13,6 +14,12 @@ body{
     from {background-color: #1b6ca8 ;}
     to {background-color: #0a97b0;}
 }
+
+.material-icons.md-36{
+    font-size: 36px;
+    padding: 17px 0px;
+}
+
 
 header{
     width: 100%;
@@ -32,11 +39,39 @@ header div{
     display: flex;
     justify-content: flex-end;
     background-color: #1b6ca8;
-
 }
 
-.navigator > div{
-    margin: 5px;
+.navigator__idmenu{
+    margin: 5px 30px 5px 5px;
     font-size: 17px;
-    padding: 15px;
+    padding: 17px 5px;
 }
+
+.navigator ul{
+    background-color: #1b6ca8;
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+}
+
+.navigator__idmenu:hover ul, ul:hover {
+    display: block; 
+}
+
+.navigator__idmenu li{
+    width: 200px;
+    margin: 10px 0px;
+    padding-right: 0px;
+}
+
+.navigator__idmenu li a{
+    margin-left: 5px;
+    text-decoration: none;
+    color: #fce8d5;
+}
+
+.navigator__idmenu li:hover {
+    background-color: #3789c9;
+}
+
