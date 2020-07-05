@@ -52,6 +52,12 @@ header input{
     outline: none;
 }
 
+@media screen and (max-width:850px){
+    header input{
+        width:60px;
+    }
+}
+
 ::placeholder{
     color: #ffd3e1;
     vertical-align: center;
@@ -60,6 +66,7 @@ header input{
 .navigator{
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     background-color: #1b6ca8;
 }
 
@@ -69,9 +76,9 @@ header input{
 }
 
 .navigator__idmenu{
-    margin: 5px 30px 5px 5px;
+    margin: 5px 30px 0px 5px;
     font-size: 17px;
-    padding: 0px 5px 12px;
+    padding: 0px 5px 17px;
     vertical-align: middle;
 }
 
@@ -88,7 +95,7 @@ header input{
 }
 
 .navigator__idmenu li{
-    width: 200px;
+    width: 157px;
     margin: 10px 0px;
     padding-right: 0px;
 }
@@ -105,10 +112,14 @@ header input{
 
 footer{
     background-color: #1b6ca8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer h3{
     padding: 10px 0px 0px 20px;
+    margin: 0px;
 }
 
 footer ul{
