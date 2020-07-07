@@ -80,6 +80,7 @@ header input{
     font-size: 17px;
     padding: 0px 5px 17px;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .navigator ul{
@@ -127,7 +128,7 @@ header input{
     background-color: black;
     width: 900px;
     height: 450px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     margin: auto;  
     display: flex;
     justify-content: center;
@@ -136,9 +137,8 @@ header input{
 
 .feed-item__img{
     display: block;
-    margin: auto;
-    width: auto;
-    height: auto;
+    width: 600px;
+    height: 450px;
     object-fit: contain;
 }
 
@@ -146,6 +146,7 @@ header input{
     background-color: #f2f7f8;
     width: 300px;
     height: 450px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 footer{
